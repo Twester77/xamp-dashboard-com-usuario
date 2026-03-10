@@ -38,6 +38,7 @@
                 <td> Administrador </td>
                 <td> <span class="badge ativo"> Ativo </span> </td>
                 <td> <button class="btn-icon"> <i class="fa-solid fa-pen-to-square fa-lg" style="color: rgb(255, 212, 59);"></i>
+                <td> <button class="btn-danger"> <i class="fa-solid fa-trash-can fa-sm" style="color: rgb(242, 81, 41);"></i>
 
             <tr>
                 <td> 02 </td>            
@@ -46,7 +47,7 @@
                 <td> Administrador </td>
                 <td> <span class="badge ativo"> Ativo </span> </td>
                 <td> <button class="btn-icon"> <i class="fa-solid fa-pen-to-square fa-lg" style="color: rgb(255, 212, 59);"></i>
-                
+                <td> <button class="btn-danger"> <i class="fa-solid fa-trash-can fa-sm" style="color: rgb(242, 81, 41);"></i>
             </tr>
             
             
