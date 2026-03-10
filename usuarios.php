@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href "dash.css">
+    <link rel="stylesheet" href "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Acesso ao Sistema</title>
 
 </head>
@@ -18,7 +20,7 @@
         <thead>
             <tr>
 
-                <th> ID</th> 
+                <th> ID </th> 
                 <th> Nome </th>
                 <th> E-mail </th>
                 <th> Acesso </th>
@@ -34,8 +36,8 @@
                 <td> Leonardo Florindo </td>
                 <td> 87826unifev.edu.br </td>
                 <td> Administrador </td>
-                <td> Ativo </td>
-                <td> Editar </td>
+                <td> <span class="badge ativo"> Ativo </span> </td>
+                <td> <button class="btn-icon"> <i class="fa-solid fa-pen"> </i> </button> </td>
             </tr>
 
             <tr>
@@ -43,8 +45,9 @@
                 <td>João Lucas </td>
                 <td> Joaolucas_e_gay@unifev.edu.br</td>
                 <td> Administrador </td>
-                <td> Ativo </td>
-                <td> Editar </td>
+                <td> <span class="badge ativo"> Ativo </span> </td>
+                <td> <button class="btn-icon"> <i class="fa-solid fa-pen"> </i> </button> </td>
+                
             </tr>
             
             
