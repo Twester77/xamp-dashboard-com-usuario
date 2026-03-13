@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acesso ao Sistema</title>
-
+    <link rel= "stylesheet" href="dash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <main>
@@ -33,9 +34,16 @@
                 <td> 87826@unifev.edu.br </td>
                 <td> Administrador </td>
                 <td> Ativo </td>
-                <td> Editar </td>
-               <td> <a href="#"class="btn-acao"> Editar </a>
-                <a href="#"class="btn-acao"> Excluir </a>
+               <td> <a href="#"class="btn-acao btn-editar"> Editar
+                   <i class="fa-solid fa-pen-to-square" style="background-color:rgba(24, 247, 24, 0.6);"> </i> 
+                </a>
+                <a href="#"class="btn-acao btn-excluir"> Excluir 
+                   <i class="fa-solid fa-trash" style="background-color: rgba(247, 24, 24, 0.69) ;"> </i>
+                 </a>
+                 <a href="#"class="btn-visualizar btn-visualizar> Visualizar
+                  <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm" style="color: rgb(255, 212, 59);"></i>                </a>
+                 </a>
+    
                </td>
 
             </tr>
@@ -46,26 +54,21 @@
                 <td> Joaolucas_eh_gay@unifev.edu.br</td>
                 <td> Administrador </td>
                 <td> Ativo </td>
-                <td> Editar </td>
                 <td>
-                <a href="#"class="btn-acao"> Editar </a>
+                <a href="#"class="btn-acao"> Editar
+                     <i class="fa-solid fa-pen-to-square" style="background-color:rgba(24, 247, 24, 0.6);"> </i> </a>
                 <a href="#"class="btn-acao"> Excluir </a>
+                     <i class="fa-solid fa-trash" style="background-color: rgba(247, 24, 24, 0.69);"> </i> </a>
                 </td>
             </tr>           
-            
-</tbody>
+    
+         </tbody>
 
-
-</table>              
+   </table>              
         
     
 </div>
-
 </main>
-
 <body>
-    
-
-
 </body>
 </html>

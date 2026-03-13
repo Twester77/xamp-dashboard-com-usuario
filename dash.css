@@ -47,16 +47,19 @@ article {
     }
 
     .btn-acao {
-        padding: 5px 10px;
+        padding: 20px;
         border-radius: 4px;
         font-size: 13px;
         cursor:pointer;
         text-decoration: none;
         transition: background 0.3s ;
         display:inline-block;
+        align-items:flex-start;
         color: white;
 
     }
+    
+
 
 
 article h2 {
