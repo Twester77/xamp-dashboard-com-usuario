@@ -59,6 +59,15 @@ article {
 
     }
     
+    .btn-editar {
+        background-color: rgba(24, 247, 24, 0.884);
+    }
+    .btn-excluir {
+        background-color: rgba(247, 39, 24, 0.884);
+    }
+    .btn-visualizar {
+        background-color: rgba(247, 255, 24, 0.904);
+    }
 
 
 

@@ -35,15 +35,14 @@
                 <td> Administrador </td>
                 <td> Ativo </td>
                <td> <a href="#"class="btn-acao btn-editar"> Editar
-                   <i class="fa-solid fa-pen-to-square" style="background-color:rgba(24, 247, 24, 0.6);"> </i> 
+                   <i class="fa-solid fa-pen-to-square"> </i> 
                 </a>
                 <a href="#"class="btn-acao btn-excluir"> Excluir 
-                   <i class="fa-solid fa-trash" style="background-color: rgba(247, 24, 24, 0.69) ;"> </i>
+                   <i class="fa-solid fa-trash"> </i>
                  </a>
-                 <a href="#"class="btn-visualizar btn-visualizar> Visualizar
-                  <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm" style="color: rgb(255, 212, 59);"></i>                </a>
-                 </a>
-    
+                 <a href="#"class="btn-acao btn-visualizar"> Visualizar
+                  <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm"> </i> 
+                </a>
                </td>
 
             </tr>
@@ -55,10 +54,15 @@
                 <td> Administrador </td>
                 <td> Ativo </td>
                 <td>
-                <a href="#"class="btn-acao"> Editar
-                     <i class="fa-solid fa-pen-to-square" style="background-color:rgba(24, 247, 24, 0.6);"> </i> </a>
-                <a href="#"class="btn-acao"> Excluir </a>
-                     <i class="fa-solid fa-trash" style="background-color: rgba(247, 24, 24, 0.69);"> </i> </a>
+                <a href="#"class="btn-acao btn-editar"> Editar
+                     <i class="fa-solid fa-pen-to-square" > </i> 
+                </a>
+                <a href="#"class="btn-acao btn-excluir"> Excluir </a>
+                     <i class="fa-solid fa-trash"> </i> 
+                </a>
+                <a href="#"class="btn-acao btn-visualizar"> Visualizar
+                     <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm"> </i>
+                 </a>
                 </td>
             </tr>           
     
