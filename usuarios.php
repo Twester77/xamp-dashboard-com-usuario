@@ -41,7 +41,7 @@
                    <i class="fa-solid fa-trash"> </i>
                  </a>
                  <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                  <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm"> </i> 
+                  <i class="fa-utility fa-magnifying-glass-plus"> </i> 
                 </a>
                </td>
 
@@ -61,7 +61,7 @@
                      <i class="fa-solid fa-trash"> </i> 
                 </a>
                 <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                     <i class="fa-utility fa-semibold fa-magnifying-glass-plus fa-beat fa-sm"> </i>
+                     <i class="fa-utility fa-magnifying-glass-plus"> </i>
                  </a>
                 </td>
             </tr>           
