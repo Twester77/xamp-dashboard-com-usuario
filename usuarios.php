@@ -49,8 +49,8 @@
 
             <tr>
                 <td> 02 </td>            
-                <td>João Lucas </td>
-                <td> Joaolucas_eh_gay@unifev.edu.br</td>
+                <td> João Lucas </td>
+                <td> lucasjoao@unifev.edu.br</td>
                 <td> Administrador </td>
                 <td> Ativo </td>
                 <td>
