@@ -57,12 +57,12 @@
                 <a href="#"class="btn-acao btn-editar"> Editar
                      <i class="fa-solid fa-pen-to-square" > </i> 
                 </a>
-                <a href="#"class="btn-acao btn-excluir"> Excluir </a>
+                <a href="#"class="btn-acao btn-excluir"> Excluir 
                      <i class="fa-solid fa-trash"> </i> 
                 </a>
                 <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                     <i class="fa-utility fa-magnifying-glass-plus"> </i>
-                 </a>
+                </a>    <i class="fa-utility fa-magnifying-glass-plus"> </i>
+                
                 </td>
             </tr>           
     

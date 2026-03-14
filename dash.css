@@ -54,7 +54,6 @@ article {
         text-decoration: none;
         transition: background 0.3s ;
         display:inline-block;
-        align-items:flex-start;
         color: white;
 
     }
@@ -119,7 +118,7 @@ nav a {
 
 nav a:hover {
     background-color: #1f5b97;
-    color:  #ff8800;
+    color: #ff8800;
 
 }
 
