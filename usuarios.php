@@ -26,7 +26,6 @@
                 <th> Acões </th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
                 <td> 01 </td>
@@ -61,11 +60,9 @@
                      <i class="fa-solid fa-trash"> </i> 
                 </a>
                 <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                </a>    <i class="fa-utility fa-magnifying-glass-plus"> </i>
-                
+                </a>  <i class="fa-utility fa-magnifying-glass-plus"> </i>
                 </td>
-            </tr>           
-    
+            </tr>          
          </tbody>
 
    </table>              
