@@ -187,3 +187,27 @@ td {
     font-size: 15px;
     color:#444;
 }
+
+.card-form {
+    background:white;
+    max-width: 700px;
+    margin:20px auto;
+    padding: 30px;
+    border-radius:12px;
+    box-shadow: 0  10px 25px rgba(7, 41, 80, 0.5)
+    
+}
+.form-header{
+    margin-bottom:25px;
+     border-bottom:1px solid aliceblue;
+      padding-bottom:15px;
+}
+.form-group { display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-bottom: 20px;
+
+}
+
+.form-row {display: flex; gap:20px}
+.flex 
