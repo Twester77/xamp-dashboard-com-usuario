@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
+<body>
 <main>
     <div class="header-content">
         <h2> Gestão de Usuários </h2>
@@ -32,18 +33,18 @@
                 <td> Leonardo Florindo </td>
                 <td> 87826@unifev.edu.br </td>
                 <td> Administrador </td>
-                <td> Ativo </td>
-               <td> <a href="#"class="btn-acao btn-editar"> Editar
-                   <i class="fa-solid fa-pen-to-square"> </i> 
-                </a>
-                <a href="#"class="btn-acao btn-excluir"> Excluir 
-                   <i class="fa-solid fa-trash"> </i>
-                 </a>
-                 <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                  <i class="fa-utility fa-magnifying-glass-plus"> </i> 
-                </a>
+                <td> <span class="badge ativo"> Ativo </span> </td>
+               <td> 
+                <button type="button" class="btn-acao btn-editar">
+                    <i class="fa-solid fa-pen-to-square"> </i> 
+                </button>
+                <button type="button" class="btn-acao btn-excluir">  
+                    <i class="fa-solid fa-trash"> </i>
+                </button>
+                <button type="button" class="btn-acao btn-visualizar"> 
+                    <i class="fa-utility fa-magnifying-glass"> </i>
+                </button>
                </td>
-
             </tr>
 
             <tr>
@@ -51,25 +52,29 @@
                 <td> João Lucas </td>
                 <td> lucasjoao@unifev.edu.br</td>
                 <td> Administrador </td>
-                <td> Ativo </td>
+                <td> <span class="badge ativo"> Ativo </span> </td>
                 <td>
-                <a href="#"class="btn-acao btn-editar"> Editar
+                <button type="button" class="btn-acao btn-editar"> 
                      <i class="fa-solid fa-pen-to-square" > </i> 
-                </a>
-                <a href="#"class="btn-acao btn-excluir"> Excluir 
+                </button>
+            
+                <button type="button" class="btn-acao btn-excluir">
                      <i class="fa-solid fa-trash"> </i> 
-                </a>
-                <a href="#"class="btn-acao btn-visualizar"> Visualizar
-                </a>  <i class="fa-utility fa-magnifying-glass-plus"> </i>
+                </button>
+                
+                <button type="button" class="btn-acao btn-visualizar"> 
+                     <i class="fa-utility fa-magnifying-glass"> </i>
+                </button>
                 </td>
             </tr>          
          </tbody>
-
-   </table>              
-        
+   </table>                     
     
 </div>
+
 </main>
-<body>
+
+    
 </body>
+
 </html>
