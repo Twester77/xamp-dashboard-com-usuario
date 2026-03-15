@@ -9,7 +9,11 @@
 </head>
 
 <body>
-<main>
+    <div class="dashboard-container">
+    <nav>
+            <?php include 'menu.php'; ?> 
+    </nav>
+<main> 
     <div class="header-content">
         <h2> Gestão de Usuários </h2>
         <p> Visualize e gerencie as permissões de usuários do sistema. </p>
@@ -42,7 +46,7 @@
                     <i class="fa-solid fa-trash"> </i>
                 </button>
                 <button type="button" class="btn-acao btn-visualizar"> 
-                    <i class="fa-utility fa-magnifying-glass"> </i>
+                    <i class="fa-solid fa-magnifying-glass-plus"> </i>
                 </button>
                </td>
             </tr>
@@ -63,17 +67,18 @@
                 </button>
                 
                 <button type="button" class="btn-acao btn-visualizar"> 
-                     <i class="fa-utility fa-magnifying-glass"> </i>
+                     <i class="fa-solid fa-magnifying-glass-plus"> </i>
                 </button>
-                </td>
-            </tr>          
-         </tbody>
-   </table>                     
-    
-</div>
-
-</main>
-
+                 </td>
+               </tr>          
+           </tbody>
+      </table>                     
+   </div>
+ </main>
+  </div> 
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
     
 </body>
 
