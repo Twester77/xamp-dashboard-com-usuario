@@ -48,7 +48,7 @@ article {
     }
 
     .btn-acao {
-        padding: 20px;
+        padding: 16px;
         border:none;
         font-size: 13px;
         cursor:pointer;
@@ -63,7 +63,7 @@ article {
     .badge { 
 
         padding: 4px 10px;
-        border-radius: 10px;
+        border-radius: 4px;
         font-size: 14px;
         font-weight: bold;
         
@@ -75,10 +75,10 @@ article {
     .inativo { background-color:#d12222 }
 
     .btn-editar {
-        background-color: rgba(24, 244, 24, 0.60);
+        background-color: rgba(62, 238, 62, 0.678);
     }
     .btn-excluir {
-        background-color: rgba(240, 29, 29, 0.6);
+        background-color: rgba(240, 29, 29, 0.699);
     }
     .btn-visualizar {
         background-color: rgba(225, 247, 24, 0.801);
@@ -184,12 +184,12 @@ footer {
 }
 
 
-.tbody:nth-child(even){
+tbody:nth-child(even){
     background-color: #f9f9f9;
 
 }
 
-.tbody tr:hover { background-color: #d8d8d8;
+tbody tr:hover { background-color: #d8d8d8;
 }
  
 .table:hover { background-color: #8db4ee;
