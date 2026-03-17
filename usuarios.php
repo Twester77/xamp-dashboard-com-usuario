@@ -1,3 +1,11 @@
+<?php
+ $nivelAcesso = 2;
+if($nivelAcesso == 2) { echo '<span class="badge ativo" >Administrador</span>';}
+else {
+    echo '<span class = "badge inativo"> Usuário Comum </span>';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
