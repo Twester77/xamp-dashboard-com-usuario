@@ -229,6 +229,7 @@ td {
     color:#444;
 }
 
+
 .card-form {
     background:white;
     max-width: 700px;
@@ -247,6 +248,7 @@ td {
     flex-direction: column;
     gap:8px;
     margin-bottom: 20px;
+    
 
 }
 
@@ -266,7 +268,7 @@ label { font-weight: bold;
     }
 
     input:focus{
-        border: color #004a8d; outline:none;
+        border: #004a8d; outline: none;
         box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
     }
 
@@ -274,10 +276,35 @@ label { font-weight: bold;
         background-color: #27ae60;
         color: white;
         border: none;
-        padding: 12px  25px;
+        padding: 9px 12px;
         border-radius: 6px;
         cursor: pointer;
         font-weight:bold;
+        transition: 0.3s;
+       
 
     }
+.btn-cancel {
+    background-color: #ff8800;
+    color: white;
+    border: none;
+    padding: 9px 12px ;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display:inline-flex;
+    transition: 0.3s;
+    
+}
+
+.form-actions {
+display: flex ;
+flex-direction: row ;
+gap: 15px;
+margin-top: 25px;
+
+}
+
+.btn-save:hover { background-color: #219150; }
+.btn-cancel:hover { background-color: #e67a00; }
 
