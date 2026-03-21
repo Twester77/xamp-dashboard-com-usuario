@@ -81,8 +81,17 @@ else {
                 </button>
 
                  </td>
+                
+
                </tr>          
            </tbody>
+
+           <tfoot>
+            <button type="button" class="btn-acao btn-cadastrar"> 
+                <i class="fa-solid fa-user-plus"> </i>
+                 <a href = "cad-usuarios.php"> Novo Usuário > </a> 
+                </button>
+            </tfoot>
       </table>                     
    </div>
  </main>

@@ -9,7 +9,7 @@
             <li> <a href="#"> Projetos </a></li>          
             <li> <a href="#"> Relatórios </a></li>
             <li> <a href="#"> Configurações </a></li>
-            <li> <a href= "#"> Usuários </a></li>
+            <li> <a href= "usuarios.php"> Usuários </a></li>
             <li> <a href= "#"> Categorias </a></li>
             <li> <a href= "#"> Postagens </a></li>
 
