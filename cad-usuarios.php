@@ -37,7 +37,7 @@
     <select id="nivel" name="nivel">
         <option value="1"> Usuario </option>
         <option value="2"> Administrador </option>
-        <option value="3"> Terceiro </option>
+        <option value="3"> Terceiros </option>
     </select>
 </div>
 
