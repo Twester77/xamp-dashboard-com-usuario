@@ -40,6 +40,12 @@ else {
                 <th> Acões </th>
             </tr>
         </thead>
+
+        <thead>
+            <i class="fa-solid fa-user-plus"> </i>
+            <a href = "cad-usuarios.php"> Novo Usuário </a> 
+        
+        </thead>
         <tbody>
             <tr>
                 <td> 01 </td>
@@ -80,18 +86,11 @@ else {
                      <i class="fa-solid fa-magnifying-glass-plus"> </i>
                 </button>
 
+                </tr>
+
                  </td>
-                
-
-               </tr>          
+                         
            </tbody>
-
-           <tfoot>
-            <button type="button" class="btn-acao btn-cadastrar"> 
-                <i class="fa-solid fa-user-plus"> </i>
-                 <a href = "cad-usuarios.php"> Novo Usuário > </a> 
-                </button>
-            </tfoot>
       </table>                     
    </div>
  </main>
