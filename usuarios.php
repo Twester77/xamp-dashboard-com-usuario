@@ -22,10 +22,15 @@ else {
             <?php include 'menu.php'; ?> 
     </nav>
 <main> 
-    <div class="header-content">
-        <h2> Gestão de Usuários </h2>
-        <p> Visualize e gerencie as permissões de usuários do sistema. </p>
-</div>
+    <div class="header-content"> 
+        <div class = "header-title">
+            <h2> Gestão de Usuários </h2>
+            <p> Visualize e gerencie as permissões de usuários do sistema. </p>
+        </div>
+
+       <button type="button" class = "btn-acao btn-cadastrar" >
+        <a href = "cad-usuarios.php">  <i class="fa-solid fa-user-plus"> </i> Novo Usuário </a>
+    </div>
 
 <div class="table-responsive">
 
@@ -41,11 +46,7 @@ else {
             </tr>
         </thead>
 
-        <thead>
-            <i class="fa-solid fa-user-plus"> </i>
-            <a href = "cad-usuarios.php"> Novo Usuário </a> 
-        
-        </thead>
+    
         <tbody>
             <tr>
                 <td> 01 </td>

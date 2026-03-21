@@ -84,22 +84,25 @@ article {
         background-color: rgba(225, 247, 24, 0.801);
     }
 
-    .btn-cadastrar {  background-color: #0a5e15e5;
+    .btn-cadastrar {
         display:flex;
         cursor: pointer;
-        justify-content: right;
-        border: 6px 15px;
-        padding: 12px;
+        border:4px;
+        padding: 14px;
         align-items: right;
-        
-    
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #1469cbf5;
+        border-radius: 5%;
+        transition: 0.3s;
+
 
     }
 
 
 
 article h2 {
-    color: #004a8d;
+    color: #025cb0;
     margin-bottom: 10px;
 }
 
@@ -120,6 +123,9 @@ article p {
 
 .header-content{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
 }
   
     
@@ -319,4 +325,5 @@ margin-top: 25px;
 
 .btn-save:hover { background-color: #219150; }
 .btn-cancel:hover { background-color: #e67a00; }
+.btn-cadastrar:hover { background-color: #007bff;}
 
