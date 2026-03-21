@@ -11,7 +11,7 @@ else {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acesso ao Sistema</title>
+    <title> Acesso ao Sistema </title>
     <link rel= "stylesheet" href="dash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -26,6 +26,7 @@ else {
         <h2> Gestão de Usuários </h2>
         <p> Visualize e gerencie as permissões de usuários do sistema. </p>
 </div>
+
 <div class="table-responsive">
 
     <table>
@@ -45,6 +46,7 @@ else {
                 <td> Leonardo Florindo </td>
                 <td> 87826@unifev.edu.br </td>
                 <td> Administrador </td>
+
                 <td> <span class="badge ativo"> Ativo </span> </td>
                <td> 
                 <button type="button" class="btn-acao btn-editar">
@@ -77,6 +79,7 @@ else {
                 <button type="button" class="btn-acao btn-visualizar"> 
                      <i class="fa-solid fa-magnifying-glass-plus"> </i>
                 </button>
+
                  </td>
                </tr>          
            </tbody>

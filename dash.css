@@ -84,6 +84,16 @@ article {
         background-color: rgba(225, 247, 24, 0.801);
     }
 
+    .btn-cadastrar {  background-color: #0a5e15e5;
+        display:flex;
+        cursor: pointer;
+        justify-content: right;
+        border:#333;
+        padding: 12px;
+        max-height: 100vh;
+
+    }
+
 
 
 article h2 {
