@@ -1,7 +1,7 @@
 <nav>
             <div class="perfil-usuario">
                 <img src="https:/ui-avatars.com/api/?name=Eric+Freitas&background=008080&color=fff" alt="Avatar">
-                <span> Eric Freitas </span>
+                 <?php $usuarioLogado ?> 
             </div>
         
             <ul>
