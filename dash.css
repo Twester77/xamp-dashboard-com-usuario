@@ -293,12 +293,14 @@ label { font-weight: bold;
     .btn-save {
         background-color: #27ae60;
         color: white;
-        border: none;
-        padding: 9px 12px;
+        border: auto;
+        padding: 4px 10px;
         border-radius: 6px;
         cursor: pointer;
         font-weight:bold;
+        display: inline-flex;
         transition: 0.3s;
+        max-height: 60px;
        
 
     }
@@ -306,12 +308,13 @@ label { font-weight: bold;
     background-color: #ff8800;
     color: white;
     border: none;
-    padding: 9px 12px ;
+    padding: 4px 10px ;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
     display:inline-flex;
     transition: 0.3s;
+    max-height: 60px;
     
 }
 
