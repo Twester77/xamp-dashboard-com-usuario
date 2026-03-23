@@ -77,15 +77,15 @@ article {
 
 
     .btn-editar {
-        background-color: rgba(62, 238, 62, 0.678);
+        background-color: rgba(35, 233, 35, 0.452);
         margin: 5px;
     }
     .btn-excluir {
-        background-color: rgba(240, 29, 29, 0.699);
+        background-color: rgba(240, 29, 29, 0.685);
         margin: 5px;
     }
     .btn-visualizar {
-        background-color: rgba(225, 247, 24, 0.801);
+        background-color: rgba(225, 247, 24, 0.616);
         margin: 5px;
     }
 
