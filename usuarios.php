@@ -23,7 +23,7 @@ else {
     </nav>
 <main> 
     <div class="header-content"> 
-        <div class = "header-title">
+        <div class="header-title">
             <h2> Gestão de Usuários </h2>
             <p> Visualize e gerencie as permissões de usuários do sistema. </p>
         </div>
@@ -87,9 +87,9 @@ else {
                      <i class="fa-solid fa-magnifying-glass-plus"> </i>
                 </button>
 
-                </tr>
 
                  </td>
+                 </tr>
                          
            </tbody>
       </table>                     
