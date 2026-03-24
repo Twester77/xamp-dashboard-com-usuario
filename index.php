@@ -30,7 +30,7 @@
                 <article>
                     <h2> Módulo de Categorias </h2>
                     <p> Gerencie e organize as categorias de postagens nesta área. </p>
-                    <a href="#" class="btn"> Acessar </a>
+                    <a href="categorias.php" class="btn"> Acessar </a>
                 </article>
             </section>
         </main>

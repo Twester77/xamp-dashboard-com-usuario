@@ -20,16 +20,15 @@
         <main> 
             <div class="header-content"> 
                 <div class="header-title">
-                    <h2> Gestão de Postagens </h2>
-                    <p> Visualize e gerencie as postagens da comunidade. </p>
+                    <h2> Gestão de Categorias </h2>
+                    <p> Visualize e gerencie as categorias das postagens. </p>
                     <?php 
                     if($nivelAcesso == 2) { echo '<span class="badge ativo">Administrador</span>'; }
                     else { echo '<span class="badge inativo">Usuário Comum</span>'; }
                     ?>
                 </div>
-
-                <a href="cad-postagem.php" class="btn-acao btn-cadastrar" style="text-decoration: none;">
-                    <i class="fa-solid fa-plus"></i> Nova Postagem
+                <a href="cad-categoria.php" class="btn-acao btn-cadastrar" style="text-decoration: none;">
+                    <i class="fa-solid fa-plus"></i> Nova Categoria
                 </a>
             </div>
 
@@ -37,46 +36,65 @@
                 <table>
                     <thead>
                         <tr>
-                            <th> Autor </th> 
-                            <th> Título </th>
-                            <th> Conteúdo </th>
-                            <th> Categoria </th>
+                            <th> ID </th> 
+                            <th> Nome da Categoria </th>
+                            <th> Descrição </th>
                             <th> Status </th>
                             <th> Ações </th>
                         </tr>
                     </thead>
                     <tbody> 
                         <tr>
-                            <td> Leonardo </td>
-                            <td> Holiday foi Muito </td>
-                            <td class="col-conteudo"> A festa de ontem seria interditada pela polícia. Só os brabo! Valeu galera da Octabit, campeonato de CSzinho e Fifinha e a festa tava foda demais bora marcar mais vezes! </td>
+                            <td> 01 </td>
                             <td> Eventos e Festas </td>
+                            <td> Postagens sobre festas, eventos da atléticas e afins. </td>
                             <td> <span class="badge ativo"> Ativo </span> </td>
                             <td> 
-                                <button type="button" class="btn-acao btn-visualizar" 
-                                    data-title="A festa de ontem seria interditada pela polícia. Só os brabo! Valeu galera da Octabit, campeonato de CSzinho e Fifinha e a festa tava foda demais bora marcar mais vezes!">
-                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
-                                </button>
                                 <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
                             </td>
                         </tr>
 
                         <tr>
-                            <td> João Lucas </td>
-                            <td> Monitoria de Cálculo 1 </td>
-                            <td class="col-conteudo"> Em breve mais informações sobre os horários da Monitoria pra vocês, fiquem no aguardo! Provavelmente será realizado de sábado e domingo e aos feriados, já estamos acertando isso com os monitores. </td>
-                            <td> Perguntas e Dúvidas </td>
+                            <td> 02 </td>
+                            <td> Desabafo/Reclamação </td>
+                            <td> Críticas da comunidade, bem como exposição das mazelas do meio Universitário contemporâneo. </td>
                             <td> <span class="badge ativo"> Ativo </span> </td>
                             <td> 
-                                <button type="button" class="btn-acao btn-visualizar" 
-                                    data-title="Em breve mais informações sobre os horários da Monitoria pra vocês, fiquem no aguardo! Provavelmente será realizado de sábado e domingo e aos feriados, já estamos acertando isso com os monitores.">
-                                    <i class="fa-solid fa-magnifying-glass-plus"></i>
-                                </button>
                                 <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
                             </td>
                         </tr>
+
+                        <tr>
+                           <td> 03 </td>
+                            <td> Perguntas e Dúvidas </td>
+                            <td> Conteúdos de aula e materiais acadêmicos. </td>
+                            <td> <span class="badge ativo"> Ativo </span> </td>
+                            <td> 
+                                <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
+                            </td> 
+                        </tr>
+                        <tr>
+                           <td> 04 </td>
+                            <td> Correio Elegante </td>
+                            <td> Paqueras, cantadas e pedidos de namoro </td>
+                            <td> <span class="badge ativo"> Ativo </span> </td>
+                            <td> 
+                                <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
+                            </td> 
+                        </tr>
+                        <tr>
+                           <td> 05 </td>
+                            <td> Perguntas e Dúvidas </td>
+                            <td> Conteúdos de sala de aula e materiais acadêmicos. </td>
+                            <td> <span class="badge ativo"> Ativo </span> </td>
+                            <td> 
+                                <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
+                            </td> 
                     </tbody>
                 </table> 
             </div> 
