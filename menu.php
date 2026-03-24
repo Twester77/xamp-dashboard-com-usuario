@@ -6,12 +6,9 @@
         
             <ul>
             <li><a href="index.php"> Inicio </a> </li>
-            <li> <a href="#"> Projetos </a></li>          
-            <li> <a href="#"> Relatórios </a></li>
-            <li> <a href="#"> Configurações </a></li>
-            <li> <a href= "usuarios.php"> Usuários </a></li>
             <li> <a href= "#"> Categorias </a></li>
             <li> <a href= "#"> Postagens </a></li>
+            <li> <a href= "usuarios.php"> Usuários </a></li>
 
             </ul>
         </nav>

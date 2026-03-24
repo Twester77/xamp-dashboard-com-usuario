@@ -22,12 +22,12 @@
                     <a href="usuarios.php" class="btn"> Acessar</a>
                 </article>
                 <article>
-                    <h2> Módulo de Projetos </h2>
+                    <h2> Módulo de Postagens </h2>
                     <p>Gerencie os projetos e tarefas do sistema nesta área; </p>
                     <a href="#" class="btn"> Acessar</a>
                 </article>
                 <article>
-                    <h2> Módulo de Relatórios </h2>
+                    <h2> Módulo de Categorias </h2>
                     <p> Gerencie e exporte relatórios do sistema nessa área</p>
                     <a href="#" class="btn"> Acessar</a>
                 </article>
