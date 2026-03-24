@@ -11,10 +11,11 @@
 
 <body> 
     <div class="dashboard-container">
-        <?php include 'menu.php'; ?>
+      <nav>
+         <?php include 'menu.php'; ?>
+      </nav>
+        
 
-      <div class="content-wrapper">
-         
         <main style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px;"> 
             <section class="card-form"> 
                 <div class="form-header">
@@ -22,7 +23,7 @@
                     <p>Preencha os dados abaixo para registrar um novo usuário.</p> 
                 </div>
 
-                <form action="processa.php" method="POST">
+                <form action="insere-usuario.php" method="POST">
                     <div class="form-group">
                         <label for="nome">Nome Completo</label>
                         <input type="text" id="nome" name="nome" placeholder="Ex: Leonardo Rodrigues" required>
@@ -34,12 +35,12 @@
                     </div>
 
                     <div class="form-row" style="display: flex; gap: 15px;">
-                        <div class="form-group flex-1">
+                        <div class="form-group" style="flex: 1;">
                             <label for="senha">Senha</label>
                             <input type="password" id="senha" name="senha" required>
                         </div>
 
-                        <div class="form-group flex-1">
+                        <div class="form-group" style="flex: 1;">
                             <label for="nivel">Nível</label>
                             <select id="nivel" name="nivel">
                                 <option value="1">Usuário</option>
@@ -51,11 +52,14 @@
 
                     <div class="form-actions">
                         <button type="submit" class="btn-save">Finalizar Cadastro</button>
-                        <a href="index.php" class="btn-cancel">Cancelar</a>
+                        <a href="usuarios.php" class="btn-cancel" style="text-decoration: none;">Cancelar</a>
                     </div>
                 </form>
             </section>
         </main>
-            <?php include 'footer.php';?>
-      </div> </div>  </body>
+    </div>
+     <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
+</body>
 </html>
