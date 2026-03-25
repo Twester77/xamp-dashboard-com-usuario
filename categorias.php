@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Gestão de Postagens </title>
+    <title> Gestão de Categorias </title>
     <link rel="stylesheet" href="dash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -88,13 +88,14 @@
                         </tr>
                         <tr>
                            <td> 05 </td>
-                            <td> Perguntas e Dúvidas </td>
-                            <td> Conteúdos de sala de aula e materiais acadêmicos. </td>
+                            <td> Achados e Perdidos </td>
+                            <td> Itens achados em dependências da Universidade ou até em festas e eventos. </td>
                             <td> <span class="badge ativo"> Ativo </span> </td>
                             <td> 
                                 <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn-acao btn-excluir"><i class="fa-solid fa-trash"></i></button>
                             </td> 
+                        </tr>
                     </tbody>
                 </table> 
             </div> 

@@ -28,7 +28,7 @@
                     ?>
                 </div>
 
-                <a href="cad-postagem.php" class="btn-cadastrar" style="text-decoration: none;">
+                <a href="cad-posts.php" class="btn-cadastrar" style="text-decoration: none;">
                     <i class="fa-solid fa-plus"> </i> Nova Postagem
                 </a>
             </div>

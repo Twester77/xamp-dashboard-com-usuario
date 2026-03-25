@@ -32,11 +32,9 @@
                     ?>
                 </div>
 
-                <button type="button" class="btn-cadastrar">
-                    <a href="cad-usuarios.php" style="text-decoration: none; color: white;">
-                        <i class="fa-solid fa-user-plus"> </i> Novo Usuário 
-                    </a>
-                </button>
+                <a href="cad-usuarios.php" class="btn-cadastrar" style="text-decoration: none;">
+                  <i class="fa-solid fa-user-plus"></i> Novo Usuário 
+                </a>
             </div>
 
             <div class="table-responsive">
@@ -84,6 +82,9 @@
                             </td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                       
+                    </tfoot>
                 </table>                    
             </div>
         </main>
