@@ -151,18 +151,37 @@ td {
 }
 
 .btn-acao {
-    border: none;
     padding: 8px 12px;
     border-radius: 4px;
     cursor: pointer;
-    color: white;
+    border: none; 
     transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-editar { background-color: #2ecc71; }
-.btn-excluir { background-color: #e74c3c; }
-.btn-visualizar { background-color: #f1c40f; position: relative; }
+.btn-editar { background-color: #21cc68; }
+.btn-excluir { background-color: #f1412d; }
+.btn-visualizar { background-color: #f1c929; position: relative; }
 
+.btn-cadastrar {
+    background-color: #007bff !important; 
+    color: white !important; 
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-cadastrar:hover {
+    background-color: #0056b3 !important;
+}
 .badge {
     padding: 4px 8px;
     border-radius: 4px;
@@ -211,14 +230,14 @@ input, select { padding: 10px;
 
 .btn-save { background: #27ae60; 
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
-    border-radius: 5px; 
+    border-radius: 4px; 
     cursor: pointer; }
 .btn-cancel { background: #e67e22; 
     color: white;
-    padding: 8px 16px;
-    border-radius: 5px; 
+    padding: 12px 24px;
+    border-radius: 4px; 
     text-decoration: none; }
 
 /* RODE OS PÉ */

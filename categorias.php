@@ -27,8 +27,8 @@
                     else { echo '<span class="badge inativo">Usuário Comum</span>'; }
                     ?>
                 </div>
-                <a href="cad-categoria.php" class="btn-acao btn-cadastrar" style="text-decoration: none;">
-                    <i class="fa-solid fa-plus"></i> Nova Categoria
+                <a href="cad-categoria.php" class="btn-cadastrar" style="text-decoration: none;">
+                    <i class="fa-solid fa-plus"> </i> Nova Categoria
                 </a>
             </div>
 

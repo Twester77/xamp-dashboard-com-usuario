@@ -32,9 +32,9 @@
                     ?>
                 </div>
 
-                <button type="button" class="btn-acao btn-cadastrar">
+                <button type="button" class="btn-cadastrar">
                     <a href="cad-usuarios.php" style="text-decoration: none; color: white;">
-                        <i class="fa-solid fa-user-plus"></i> Novo Usuário
+                        <i class="fa-solid fa-user-plus"> </i> Novo Usuário 
                     </a>
                 </button>
             </div>

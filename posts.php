@@ -28,8 +28,8 @@
                     ?>
                 </div>
 
-                <a href="cad-postagem.php" class="btn-acao btn-cadastrar" style="text-decoration: none;">
-                    <i class="fa-solid fa-plus"></i> Nova Postagem
+                <a href="cad-postagem.php" class="btn-cadastrar" style="text-decoration: none;">
+                    <i class="fa-solid fa-plus"> </i> Nova Postagem
                 </a>
             </div>
 
@@ -80,13 +80,13 @@
 
                         <tr>
                             <td> João Lusca </td>
-                            <td> Ranço desse povo ! </td>
-                            <td class="col-conteudo"> Oração hoje as 23:99 pela prova de Lógica de Programação... NÃO AGUENTO MAIS VOU TRANCAR ESSA PORRA! </td>
+                            <td> Oração hoje as 23:99 pela prova de Lógica de Programação... </td>
+                            <td class="col-conteudo"> Oração hoje as 23:99 pela prova de Lógica de Programação... EU NÃO AGUENTO MAIS VOU TRANCAR ESSA PORRA! </td>
                             <td> Desabafo/Reclamação </td>
                             <td> <span class="badge ativo"> Ativo </span> </td>
                             <td> 
                                 <button type="button" class="btn-acao btn-visualizar" 
-                                    data-title="Oração hoje as 23:99 pela prova de Lógica de Programação... NÃO AGUENTO MAIS VOU TRANCAR ESSA PORRA!">
+                                    data-title="Simplesmente frustrante demais! NÃO AGUENTO MAIS, VOU TRANCAR ESSA PORRA!">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </button>
                                 <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>
@@ -96,12 +96,12 @@
                         <tr>
                             <td> Anônimo </td>
                             <td> Que mina linda, meu señor... </td>
-                            <td class="col-conteudo"> Gente alguém sabe da menina do período da tarde que tava subindo o ônibus da Facul ( acho que era de VG , alguém me socorre aí 😅), de cabelo ruivo e meio curtinho. Gata me chama de hacker e bora fazer um programa qualquer dia desses. </td>
+                            <td class="col-conteudo"> Gente alguém sabe da menina do período da tarde que tava subindo o ônibus da Facul ( acho que era de VG , alguém me socorre aí 😅), de cabelo ruivo e meio curtinho, bolsa da 777. Gata me chama de hacker que eu vou abrir uma brecha no seu sistema. </td>
                             <td> Correio Elegante </td>
                             <td> <span class="badge ativo"> Ativo </span> </td>
                             <td> 
                                 <button type="button" class="btn-acao btn-visualizar" 
-                                    data-title="Gente alguém sabe da menina do período da tarde que tava subindo o ônibus da Facul ( acho que era de VG , alguém me socorre 😅), de cabelo ruivo e meio curtinho. Gata me chama de hacker e bora fazer um programa qualquer dia desses.">
+                                    data-title=" Gente alguém sabe da menina do período da tarde que tava subindo o ônibus da Facul ( acho que era de VG , alguém me socorre aí 😅), de cabelo ruivo e meio curtinho, bolsa da 777. Gata me chama de hacker que eu vou abrir uma brecha no seu sistema.">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </button>
                                 <button type="button" class="btn-acao btn-editar"><i class="fa-solid fa-pen"></i></button>

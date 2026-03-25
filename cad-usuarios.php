@@ -19,7 +19,7 @@
         <main style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 20px;"> 
             <section class="card-form"> 
                 <div class="form-header">
-                    <h2> <i class="fa-solid fa-user-plus"></i> Novo Usuário </h2>
+                    <h2> <i class="fa-solid fa-user-plus"> </i> Novo Usuário  </h2>
                     <p>Preencha os dados abaixo para registrar um novo usuário.</p> 
                 </div>
 
