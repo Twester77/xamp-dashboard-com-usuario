@@ -228,19 +228,43 @@ input, select { padding: 10px;
     border: 1px solid #ddd; 
     border-radius: 5px; }
 
-.btn-save { background: #27ae60; 
-    color: white;
+
+    .btn-save, .btn-cancel {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 40px; 
     padding: 12px 24px;
+    box-sizing: border-box; 
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none; 
+    cursor: pointer;
     border: none;
-    border-radius: 4px; 
-    text-decoration: none;
-    cursor: pointer; }
-.btn-cancel { background: #e67e22; 
-    color: white;
-    padding: 9px 18px;
-    border-radius: 4px; 
-    text-decoration: none;
-    cursor: pointer; }
+    transition: background 0.3s;
+}
+
+.btn-save { 
+    background: #27ae60; 
+    color: white; 
+}
+
+
+.btn-cancel { 
+    background: #e67e22; 
+    color: white; 
+}
+
+
+.btn-save:hover { 
+    background: #219150; 
+}
+
+
+.btn-cancel:hover { 
+    background: #d35400; 
+}
+
 
 /* RODE OS PÉ */
 
