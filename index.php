@@ -14,6 +14,7 @@
         </nav>
 
         <main>
+    
             <section class="container-cards">
                 <article>
                     <h2> Módulo de Usuários </h2>
@@ -38,5 +39,12 @@
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
+    <script>
+          function deslogar() {
+        if (confirm("Deseja realmente sair da conta?")) {
+            window.location.href = "logout.php"; 
+        }
+    }
+    </script>
 </body>
 </html>

@@ -12,4 +12,5 @@
     <li><a href="categorias.php">Categorias</a></li>
     <li><a href="posts.php">Postagens</a></li>
     <li><a href="usuarios.php">Usuários</a></li>
+    <li><a href="login.php" class="btn-logout"> Sair da Conta </a></li>
 </ul>
